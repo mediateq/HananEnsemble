@@ -4,6 +4,8 @@ This is the source for the main Hanan Ensemble website, found at [Hanan Ensemble
 ## TEAM (1Devs Web Department)
 * [Ebrahim Tehranipour `etp1711`](https://github.com/etp1711)Manager / Developer
 * [Mojtaba Amjadi `mojiAm`](https://github.com/mojiAm) Designer / Developer
+
+## TECHNOLOGY
 * [HTML5](http://en.wikipedia.org/wiki/Html5)
 * [CSS3](https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference)
 * [1Styles](https://github.com/AliMD/1styles)
