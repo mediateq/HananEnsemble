@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url('http://themes.googleusercontent.com/static/fonts/abrilfatface/v5/X1g_KwGeBV3ajZIXQ9VnDvn8qdNnd5eCmWXua5W-n7c.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'bmitra';
+    src: url('fonts/smitrabd_0.eot');
+    src: url('fonts/smitrabd_0.eot?#iefix') format('embedded-opentype'),
+         url('fonts/smitrabd_0.woff') format('woff'),
+         url('fonts/smitrabd_0.ttf') format('truetype'),
+         url('fonts/smitrabd_0.svg#2MitraBoldBold') format('svg');
+	font-weight: normal;
+	font-style : normal;
+}
+
+a:active,
+a:visited,
+a:link { 
+    border: none;
+    outline: none;
+}
+
+menu,ul{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background-image:   url(images/back.jpg);
+  background-repeat:  no-repeat;  
+  margin:             0 auto;
+  background-position:  top center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
