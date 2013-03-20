@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en"><meta style="visibility: hidden !important; display: block !important; width: 0px !important; height: 0px !important; border-style: none !important;"></meta><head>
 <meta charset="UTF-8">
 <title></title>
@@ -23,23 +22,23 @@
 <body style="overflow: auto; ">
 <div id="gspinner" class="spinner" style="display: none; "></div>
 <div id="glob">	
-	<div id="_main">
+	<div id="main">
 		<div id="splash-gallery" style="width: 1018px; height: 735px; ">
-			<img src="images/splash-gallery-6.jpg" alt="" style="position: absolute; left: 0px; top: 0px; ">
+			<img src="images/splash-gallery-1.jpg" alt="" style="position: absolute; left: 0px; top: 0px; ">
 			<ul>
-				<li class=""><a href="images/splash-gallery-1.jpg"></a></li>
-				<li><a href="images/splash-gallery-2.jpg"></a></li>
-				<li><a href="images/splash-gallery-3.jpg"></a></li>
-				<li><a href="images/splash-gallery-4.jpg"></a></li>
-				<li><a href="images/splash-gallery-5.jpg"></a></li>
-				<li class="active"><a href="images/splash-gallery-6.jpg"></a></li>
+				<li class="active"><a href="images/splash-gallery-1.jpg"></a></li>
+				<li class=""><a href="images/splash-gallery-2.jpg"></a></li>
+				<li class=""><a href="images/splash-gallery-3.jpg"></a></li>
+				<li class=""><a href="images/splash-gallery-4.jpg"></a></li>
+				<li class=""><a href="images/splash-gallery-5.jpg"></a></li>
+				<li class=""><a href="images/splash-gallery-6.jpg"></a></li>
 			</ul>
 		<span class="spinner" style="display: none; "></span></div>
-		<h1 style="top: 93px; "><a href="#!/splash"><img src="images/logo.png" alt=""></a></h1>
-		<nav style="top: 89px; ">
+		<h1><a href="#!/splash"><img src="images/logo.png" alt=""></a></h1>
+		<nav>
 			<ul>
-				<li class=""><a href="#!/main">main</a><img src="images/nav-bg.png" alt=""></li>
-				<li class=""><a href="#!/about_us">about us</a><img src="images/nav-bg.png" alt=""></li>
+				<li><a href="#!/main">main</a><img src="images/nav-bg.png" alt=""></li>
+				<li><a href="#!/about_us">about us</a><img src="images/nav-bg.png" alt=""></li>
 				<li class=""><a href="#!/gallery">gallery</a>
 					<ul style="opacity: 0; display: none; ">
 						<li><a href="#!/readmore">gallery1</a></li>
@@ -48,10 +47,10 @@
 					</ul>
 					<img src="images/nav-bg.png" alt="">
 				</li>
-				<li class="active"><a href="#!/contacts">contacts</a><img src="images/nav-bg.png" alt=""></li>
+				<li><a href="#!/contacts">contacts</a><img src="images/nav-bg.png" alt=""></li>
 			</ul>			
 		</nav>
-		<article id="content" class="container_24" style="bottom: 0px; ">
+		<article id="content" class="container_24" style="bottom: -453px; ">
 			<ul>
 				<li id="main" style="display: none; ">
 					<div class="grid_9 suffix_2 alpha border-right">
@@ -77,12 +76,12 @@
 							<img src="images/main-img-3.jpg" class="blo" alt="">
 							<h2>Our Love Story</h2>
 							<div class="scroll" style="position: relative; overflow: hidden; ">
-								<div style="overflow: hidden; position: relative; top: 0px; ">
+								<div style="overflow: hidden; position: relative; ">
 									<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. </p>
 									<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. </p>
 									Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. 
 								</div>
-							<track class="_track _inside _axis-y" style="display: block; position: absolute; "><shuttle class="_shuttle" style="display: block; position: absolute; left: 0px; top: 0px; cursor: auto; "></shuttle></track></div>							
+							<track class="_track _inside _axis-y" style="display: block; position: absolute; "><shuttle class="_shuttle" style="display: block; position: absolute; left: 0px; top: 0px; "></shuttle></track></div>							
 						</div>
 				</li>
 				<li id="about_us" style="display: none; ">
@@ -124,10 +123,10 @@ Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus p
 						<a href="#" data-type="nextPage" class="gallery-btn"></a>
 					</div>
 				</li>
-				<li id="contacts" style="display: list-item; ">
+				<li id="contacts" style="display: none; ">
 					<div class="grid_8 alpha suffix_1 border-right">
 						<h2>Find Us</h2>
-						<div class="google_map blo"><iframe class="blo" width="310" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></div>
+						<div class="google_map blo"></div>
 						<dl class="address">
 							<dt>8901 Marmora Road, Glasgow, D04 89GR. </dt>
 							<dd><span>Freephone:</span>+1 800 559 6580</dd>
@@ -153,7 +152,7 @@ Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus p
 							  <span class="error" style="display: none; ">*This is not a valid phone number.</span> <span class="empty" style="display: none; ">*This field is required.</span> </label>
 							<label class="message">
 							  <textarea>Message:</textarea>
-							  <span class="error" style="display: none; ">*The message is too short.</span> <span class="empty" style="display: block; ">*This field is required.</span> </label>
+							  <span class="error" style="display: none; ">*The message is too short.</span> <span class="empty" style="display: none; ">*This field is required.</span> </label>
 							<br class="clear">
 							<div class="btns"><a href="#" class="rdmr v2 anim-underline" data-type="submit">Send Message</a></div>
 						  </fieldset>
@@ -179,8 +178,8 @@ Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus p
 		</article>
 	</div>
 	<div class="splash-btns">
-		<a href="#" class="prev" style="opacity: 0.6; display: none; "></a>
-		<a href="#" class="next" style="opacity: 0.6; display: none; "></a>
+		<a href="#" class="prev" style="opacity: 0.6; "></a>
+		<a href="#" class="next" style="opacity: 0.6; "></a>
 	</div>
 	<footer><pre class="privacy und nocolor">thomas &amp; lora (c) 2012  |  <a href="#!/privacy">Privacy Policy</a></pre><!-- {%FOOTER_LINK} --></footer>
 </div>
