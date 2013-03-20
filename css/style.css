@@ -84,6 +84,10 @@ nav>ul>li{
 	padding:0 19px;
 	cursor:pointer;
 }
+nav ul li.hover a ul{
+	opacity: 1;
+	display: block;
+}
 
 nav>ul>li>a{
 	font:700 16px/122px 'Lora', serif;

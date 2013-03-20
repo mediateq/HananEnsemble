@@ -39,7 +39,7 @@
 			<ul>
 				<li><a href="#!/main">main</a><img src="images/nav-bg.png" alt=""></li>
 				<li><a href="#!/about_us">about us</a><img src="images/nav-bg.png" alt=""></li>
-				<li class=""><a href="#!/gallery">gallery</a>
+				<li class="hover"><a href="#!/gallery">gallery</a>
 					<ul style="opacity: 0; display: none; ">
 						<li><a href="#!/readmore">gallery1</a></li>
 						<li><a href="#!/readmore">gallery2</a></li>
