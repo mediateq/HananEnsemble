@@ -52,6 +52,20 @@
 					</a>
 					<p></p>
 				</li>
+				<li>
+					<a href="./images/gallery/8.jpg" rel='prettyphoto[gallery1]' title="">
+						<img src="./images/gallery/8.jpg" alt="">
+						<div class="effe"></div>
+					</a>
+					<p></p>
+				</li>
+				<li>
+					<a href="./images/gallery/9.jpg" rel='prettyphoto[gallery1]' title="">
+						<img src="./images/gallery/9.jpg" alt="">
+						<div class="effe"></div>
+					</a>
+					<p></p>
+				</li>
 			</ul>
 			<div class="badboy"></div>
 		</div>
