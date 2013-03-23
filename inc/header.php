@@ -11,16 +11,13 @@
 	<script type="text/javascript" src="./js/zepto.js"></script>
 	<script type="text/javascript" src="./js/slide.js"></script>
 	<script type="text/javascript" src="./js/jquery.prettyphoto.js"></script>
-
-
-		
 </head>
 <body>
 <div class="content-container">
 	<header class="head">
 		<section class="contain">
 			<menu class="menubar">
-				<div class="logo"><a href="index.php">{Ebrahim Tehranipour}</a></div>	
+				<div class="logo"><a href="index.php"><img src="images/logo.png"></a></div>	
 				<div class="menu">
 					<ul>
 						<li><a href="home.php">صفحه اصلی</a></li>

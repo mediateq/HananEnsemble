@@ -35,23 +35,18 @@ div.content-container{
 .content-container header.head .contain .menubar{
 	width: 					inherit;
 	min-height: 			250px;
-	
-}
 
+}
 .content-container header.head .contain .menubar .logo{
-	width: 					350px;
-	min-height: 			100px;
 	float: 					left;
 	margin-top: 			100px;
-	font: 					34px/100px 'Playfair Display', 'Times New Roman', serif;
-	color: 					white;
-	text-align: 			center;
-}
-.content-container header.head .contain .menubar .logo a{
-	text-decoration: 		none;
-	color: 					#fff;
-}
 
+}
+.content-container header.head .contain .menubar .logo img{
+	width: 					280px;
+	min-height: 			150px;
+	
+}
 .content-container header.head .contain .menubar .menu{
 	width: 					400px;
 	min-height: 			250px;
