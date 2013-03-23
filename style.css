@@ -15,13 +15,10 @@ body{
 	background-size: 		cover;
 	background-attachment:  fixed;
 	z-index: 				-5;
-	
-	
 }
-
 div.content-container{
 	margin: 				0 auto;
-	width: 					1000px;
+	width: 					980px;
 }
 
 .content-container header.head{
@@ -35,12 +32,10 @@ div.content-container{
 .content-container header.head .contain .menubar{
 	width: 					inherit;
 	min-height: 			250px;
-
 }
 .content-container header.head .contain .menubar .logo{
 	float: 					left;
-	margin-top: 			100px;
-
+	margin-top: 			90px;
 }
 .content-container header.head .contain .menubar .logo img{
 	width: 					280px;
@@ -72,7 +67,7 @@ div.content-container{
 	text-decoration: 		none;
 	color:					white;
 	display: 				inline-block;
-	font: 					13px/242px 'Playfair Display', 'Times New Roman', serif;
+	font: 					14px/242px 'Playfair Display', 'Times New Roman', serif;
 	text-transform: 		uppercase;
 	width: 					100%;
 	height: 				100%;
@@ -230,7 +225,7 @@ section.middle .aboutpg{
 	background-color:		white;
 	width: 					inherit;
 	min-height: 			600px;
-	opacity: 				0.9;
+	opacity: 				1;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
@@ -261,7 +256,7 @@ section.Ajaxloader div.contact{
 	margin-bottom: 			50px;
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
-	opacity: 				0.9;
+	opacity: 				1;
 	direction: 				ltr;	
 	text-align: 			left;
 }
@@ -270,81 +265,96 @@ section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rig
 	width: 					450px;
 	min-height: 			500px;
 	margin-top: 			25px;
-	float: 					left;
-	margin-left: 			30px;
-	text-align: 			left;
-	color: 					#ddd;
+	float: 					right;
+	margin-right: 			30px;
+	text-align: 			right;
+	color: 					#555;
 }
 
-section.Ajaxloader div.contact .leftcontact input{
+section.Ajaxloader div.contact .rightcontact input{
 	width: 					300px;
 	min-height: 			25px;
 	margin-top: 			80px;
 	border-radius: 			10px;
 	border: 				inset 2px;
+	text-align: 			right;
 }
-section.Ajaxloader div.contact .leftcontact .email, section.Ajaxloader div.contact .leftcontact .messege{
+section.Ajaxloader div.contact .rightcontact .email, section.Ajaxloader div.contact .rightcontact .messege{
 	margin-top: 			13px;
 	border-radius: 			10px;
 	border: 				inset 2px;
+	text-align: 			right;
 }
-section.Ajaxloader div.contact .leftcontact .messege{
+section.Ajaxloader div.contact .rightcontact .messege{
 	min-height: 			200px;
 	width: 					420px;
 	border-radius: 			10px;
 	border: 				inset 2px;
 }
-section.Ajaxloader div.contact .leftcontact input.but{
+section.Ajaxloader div.contact .rightcontact input.but{
 	margin-top: 			20px;
 	color: 					black;
-	text-transform: 		uppercase;
-	font:					15px/70px monospace;
+	font:					19px monospace;
 	text-decoration: 		none;
 	cursor: 				pointer;
-	border: 				0;
-	background-color: 		transparent;
-	text-align: 			left;
-	width: 					150px;
-}
-section.Ajaxloader div.contact .leftcontact input.but:hover{
-	text-decoration: 		underline;
-}
-section.Ajaxloader div.contact .leftcontact iframe{
-	opacity: 0;
-}
-section.Ajaxloader div.contact .leftcontact a:hover{
-	text-decoration: 		underline;
-
-}	
-section.Ajaxloader div.contact .rightcontact{
-	margin-left: 			520px;
-	float: 					none;
-	text-align: 			left;
-}
-section.Ajaxloader div.contact .rightcontact p{
-	margin-top: 			80px;
-	line-height: 			25px;
-	margin-right: 			25px;
-	color: 					#000;
-}
-section.Ajaxloader div.contact .rightcontact ul{
-	margin-top: 			50px;
-}
-section.Ajaxloader div.contact .rightcontact ul li{
-	float: 					left;
-	border-right: 			8px solid transparent;
-}
-section.Ajaxloader div.contact .rightcontact ul li img{
-	width: 					35px;
+	border: 				none;
+	background-color: 		#555;
+	text-align: 			center;
+	width: 					110px;
 	height: 				35px;
-	opacity: 				0.6;
+	color: 					#fff;
 	-webkit-transition: 	all 500ms;
   	-moz-transition: 		all 500ms;
   	-o-transition: 			all 500ms;
   	-os-transition: 		all 500ms;
 
 }
-section.Ajaxloader div.contact .rightcontact ul li img:hover{
+section.Ajaxloader div.contact .rightcontact input.but:hover{
+	background-color: 		#111;
+	color: 					#eee;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+section.Ajaxloader div.contact .rightcontact iframe{
+	opacity: 				0;
+}
+section.Ajaxloader div.contact .rightcontact a:hover{
+	text-decoration: 		underline;
+}	
+section.Ajaxloader div.contact .leftcontact{
+	margin-right: 			520px;
+	float: 					none;
+	text-align: 			right;
+	margin-top: 			50px;
+}
+section.Ajaxloader div.contact .leftcontact p{
+	margin-top: 			180px;
+	line-height: 			25px;
+	margin-right: 			25px;
+	color: 					#000;
+}
+section.Ajaxloader div.contact .leftcontact ul{
+	margin-top: 			50px;
+	margin-right: 			50px;
+}
+section.Ajaxloader div.contact .leftcontact ul li{
+	float: 					right;
+	margin-right: 			5px;
+	border-right: 			8px solid transparent;
+}
+section.Ajaxloader div.contact .leftcontact ul li img{
+	width: 					35px;
+	height: 				35px;
+	opacity: 				0.7;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+
+}
+section.Ajaxloader div.contact .leftcontact ul li img:hover{
 	opacity:				1;
 	cursor: 				pointer;
 }
@@ -358,7 +368,7 @@ section.Ajaxloader div.gallery{
 	margin-bottom: 			50px;
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
-	opacity: 				0.9;
+	opacity: 				1;
 }
 
 section.Ajaxloader div.gallery ul{
