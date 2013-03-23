@@ -1,0 +1,420 @@
+
+@font-face{
+   
+    src: url('fonts/artnouveaucaps.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+	*,header,div,footer{
+	outline: 0px dashed red;
+}
+body{
+	background-image: 		url(images/backpic/3.jpg);
+	background-repeat: 		no-repeat;
+	background-position: 	top center;
+	background-size: 		cover;
+	background-attachment:  fixed;
+	z-index: 				-5;
+	
+	
+}
+
+div.content-container{
+	margin: 				0 auto;
+	width: 					1000px;
+}
+
+.content-container header.head{
+	width: 					inherit;
+	z-index: 				100;
+}
+.content-container header.head .contain{
+	width: 					inherit;
+}
+
+.content-container header.head .contain .menubar{
+	width: 					inherit;
+	min-height: 			250px;
+	
+}
+
+.content-container header.head .contain .menubar .logo{
+	width: 					350px;
+	min-height: 			100px;
+	float: 					left;
+	margin-top: 			100px;
+	font: 					34px/100px 'Playfair Display', 'Times New Roman', serif;
+	color: 					white;
+	text-align: 			center;
+}
+.content-container header.head .contain .menubar .logo a{
+	text-decoration: 		none;
+	color: 					#fff;
+}
+
+.content-container header.head .contain .menubar .menu{
+	width: 					400px;
+	min-height: 			250px;
+	margin-left: 			600px;
+	font-weight: 			bolder;
+	position: 				absolute;
+}
+
+.content-container header.head .contain .menubar .menu ul{
+	list-style-type:		none;	
+	width: 					380px;
+}
+
+.content-container header.head .contain .menubar .menu ul li{
+	float: 					right;
+	width: 					95px;
+	min-height: 			250px;
+	text-align: 			center;
+	display: 				inline-block;
+}
+
+.content-container header.head .contain .menubar .menu ul li a{
+	text-decoration: 		none;
+	color:					white;
+	display: 				inline-block;
+	font: 					13px/242px 'Playfair Display', 'Times New Roman', serif;
+	text-transform: 		uppercase;
+	width: 					100%;
+	height: 				100%;
+	letter-spacing: 		4px;
+	background-image: 		url(images/menu_bg.png);
+	background-repeat: 		no-repeat;
+	background-size: 		cover;
+	background-position: 	0px -250px;
+	-webkit-transition: 	all 1s;
+  	-moz-transition: 		all 1s;
+  	-o-transition: 			all 1s;
+  	-os-transition: 		all 1s;
+}
+.content-container header.head .contain .menubar .menu ul li a:hover{
+	background-position: 	0 0;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-ms-transition: 		all 500ms;
+  	
+}
+/* ... End MENUBAR ... */
+
+section.middle{
+	min-height: 550px;
+}
+
+/*  Slide & Footer  */
+footer.foot{
+	margin:  				0 auto;
+	width: 					100%;
+	right: 					0;
+	left: 					0;
+	min-height: 			200px;
+	background-image: 		url(images/footer_bg.png);
+	background-repeat: 		repeat-x;
+	padding: 				1px; 
+	position: 				absolute;
+}
+footer.foot .mom{
+	margin: 				0 auto;
+	min-height: 			150px;
+	width: 					1300px;
+	position: 				relative;
+	padding:				1px;
+	margin-top: 			4px;	
+}
+footer.foot .mom .slide{
+	width: 					1080px;
+	min-height: 			140px;
+	margin: 				0 auto;
+	margin-top: 			5px;
+}
+footer.foot .mom .slide .slidebar{
+	width: 					950px;
+	min-height: 			130px;
+	margin: 				0 auto;
+	padding: 				1px;
+	overflow: 				hidden;
+}
+
+footer.foot .mom .slide .slidebar .train {
+	width     :	2000px;
+	height    : 100px;
+	margin    : 0 auto;
+	margin-top: 0px;
+	position  : relative;
+	transition: 	all 500ms;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-ms-transition: 		all 500ms;
+}
+
+footer.foot .mom .slide .slidebar .train img{
+	width: 					150px;
+	height: 				63px;
+	border-radius: 			8px;
+	opacity: 				0.5;
+	margin-left: 			7px;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+footer.foot .mom .slide .slidebar .train img:first-child{
+	margin-left: 			0px;	
+
+}
+footer.foot .mom .slide .slidebar .train img:hover{
+	opacity: 				1;
+	cursor:					pointer;	
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+
+/*    ...Next & Previous...    */
+footer.foot .mom .slide .next, footer.foot .mom .slide .previous{
+	width: 					20px;
+	height: 				50px;
+	text-align: 			left;
+	background-repeat: 		no-repeat;
+	-webkit-transition: 	all 350ms;
+  	-moz-transition: 		all 350ms;
+  	-o-transition: 			all 350ms;
+  	-os-transition: 		all 350ms;
+}
+footer.foot .next{
+	float: 					right;
+	background-image: 		url(images/arrowR.png);
+	background-position: 	-25px;
+}
+
+footer.foot .previous{
+	float: 					left;
+	background-image: 		url(images/arrowL.png);
+	background-position: 	4px;
+}
+footer.foot .next:hover, footer.foot .previous:hover{
+	cursor: 				pointer;
+	-webkit-transition: 	all 155ms;
+  	-moz-transition: 		all 155ms;
+  	-o-transition: 			all 155ms;
+  	-os-transition: 		all 155ms;			
+}
+footer.foot .previous:hover{
+	background-position: 	right center;	
+}
+footer.foot .next:hover{
+	background-position: 	left center;	
+}
+/* END Next & Previous */
+
+
+/*  ...Footer Text...   */
+footer.foot .text{
+	width: 					500px;
+	height: 				30px;
+	margin: 				0 auto;
+	margin-top:				50px;
+	color: 					#fff;
+	text-align: 			center;
+	bottom: 				30px;
+}
+
+footer.foot .text p {
+	color: 					#fff;
+	font-size: 				12px;
+}
+/* --- About Page --- */
+
+section.middle .aboutpg{
+	background-color:		white;
+	width: 					inherit;
+	min-height: 			600px;
+	opacity: 				0.9;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+
+}
+section.middle .aboutpg .text{
+	width: 					940px;
+	min-height: 			400px;
+	margin: 				0 auto;
+	margin-top: 			60px;
+	direction: 				rtl;
+	text-align: 			right;
+	line-height: 			26px;
+	
+}
+section.middle .aboutpg .text p{
+	font-size: 					17px; 
+	font-family: 				'Playfair Display', 'Times New Roman', serif;
+	font-style: 				normal;
+}
+/* --- Contact Page --- */
+
+section.Ajaxloader div.contact{
+	background-color: 		#fff;
+	width: 					inherit;
+	min-height: 			600px;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	opacity: 				0.9;
+	direction: 				ltr;	
+	text-align: 			left;
+}
+
+section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rightcontact{
+	width: 					450px;
+	min-height: 			500px;
+	margin-top: 			25px;
+	float: 					left;
+	margin-left: 			30px;
+	text-align: 			left;
+	color: 					#ddd;
+}
+
+section.Ajaxloader div.contact .leftcontact input{
+	width: 					300px;
+	min-height: 			25px;
+	margin-top: 			80px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+}
+section.Ajaxloader div.contact .leftcontact .email, section.Ajaxloader div.contact .leftcontact .messege{
+	margin-top: 			13px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+}
+section.Ajaxloader div.contact .leftcontact .messege{
+	min-height: 			200px;
+	width: 					420px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+}
+section.Ajaxloader div.contact .leftcontact input.but{
+	margin-top: 			20px;
+	color: 					black;
+	text-transform: 		uppercase;
+	font:					15px/70px monospace;
+	text-decoration: 		none;
+	cursor: 				pointer;
+	border: 				0;
+	background-color: 		transparent;
+	text-align: 			left;
+	width: 					150px;
+}
+section.Ajaxloader div.contact .leftcontact input.but:hover{
+	text-decoration: 		underline;
+}
+section.Ajaxloader div.contact .leftcontact iframe{
+	opacity: 0;
+}
+section.Ajaxloader div.contact .leftcontact a:hover{
+	text-decoration: 		underline;
+
+}	
+section.Ajaxloader div.contact .rightcontact{
+	margin-left: 			520px;
+	float: 					none;
+	text-align: 			left;
+}
+section.Ajaxloader div.contact .rightcontact p{
+	margin-top: 			80px;
+	line-height: 			25px;
+	margin-right: 			25px;
+	color: 					#000;
+}
+section.Ajaxloader div.contact .rightcontact ul{
+	margin-top: 			50px;
+}
+section.Ajaxloader div.contact .rightcontact ul li{
+	float: 					left;
+	border-right: 			8px solid transparent;
+}
+section.Ajaxloader div.contact .rightcontact ul li img{
+	width: 					35px;
+	height: 				35px;
+	opacity: 				0.6;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+
+}
+section.Ajaxloader div.contact .rightcontact ul li img:hover{
+	opacity:				1;
+	cursor: 				pointer;
+}
+
+/* Gallery Page */
+section.Ajaxloader div.gallery{
+	background-color:		white;
+	width: 					inherit;
+	min-height: 			600px;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	opacity: 				0.9;
+}
+
+section.Ajaxloader div.gallery ul{
+	padding-top: 25px;
+	margin-right: 60px;
+}
+
+section.Ajaxloader div.gallery ul li{
+	float: right;
+	margin-right: 18px;
+	height: 250px;
+}
+
+section.Ajaxloader div.gallery ul li a{
+	display: block;
+	position: relative;
+}
+
+section.Ajaxloader div.gallery ul li .effe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: url('./images/magnify.png') center center no-repeat #000;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+section.Ajaxloader div.gallery ul li .effe:hover{
+	opacity: 0.4;
+	-webkit-transition: opacity 800ms;
+	   -moz-transition: opacity 800ms;
+	    -ms-transition: opacity 800ms;
+	     -o-transition: opacity 800ms;
+	        transition: opacity 800ms;
+}
+
+section.Ajaxloader div.gallery ul li img{
+	width: 265px;
+	height: 177px;
+}
+
+section.Ajaxloader div.gallery ul li p{
+	margin-top: 11px;
+	color: #deae54;
+	font-size: 18px;
+}
