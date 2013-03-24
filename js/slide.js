@@ -29,8 +29,9 @@ window.onload = function(){
 		clearInterval(intervalName);
 		intervalName = false;
 	}
-	
+
 	next.onclick = nextslide;
 	pre.onclick = preslide;	
 	
 }
+ 	
