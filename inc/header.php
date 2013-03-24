@@ -20,7 +20,7 @@
 				<div class="logo"><a href="index.php"><img src="images/logo.png"></a></div>	
 				<div class="menu">
 					<ul>
-						<li><a href="home.php">صفحه اصلی</a></li>
+						<li><a href="home.php">خانه</a></li>
 						<li><a href="gallery.php">گالری</a></li>
 						<li><a href="player.php">نوازنده ها</a></li>
 						<li><a href="contact.php">تماس با ما</a></li>

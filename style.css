@@ -427,7 +427,6 @@ section.Ajaxloader div.gallery ul li p{
 section.middle div.gallery{
 	background-color:		white;
 	width: 					inherit;
-	min-height: 			600px;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
@@ -438,7 +437,6 @@ section.middle div.gallery{
 section.middle div.gallery .contain{
 	width: 					950px;
 	min-height: 			350px;
-	outline: 				1px solid red;
 	padding: 				1px;
 }
 section.middle div.gallery .contain a{
