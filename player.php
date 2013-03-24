@@ -1,14 +1,49 @@
 ﻿<?php include('./inc/header.php') ?>
+<section class="middle">
+		<div class="gallery" id="loader">
+				<div class="contain">
+					<a href="./images/player/1.jpg" rel="prettyphoto[gallery1]" title="سرپرست گروه و نوازنده تنبور:ابراهیم طهرانی پور">
+						<img src="./images/player/1.jpg" alt="">
+					</a>
+					<h3>سرپرست گروه و نوازنده تنبور:ابراهیم طهرانی پور</h3>
+				</div>
 
-	<section class="middle">
-		<div class="aboutpg">
-			<div class="text">
-				<p>وی فارغالتحصیل رشته مدیریت بازرگانی در خردادماه 67 در خانواده ی اهل هنر و ادب در مشهد متولد شد .<br /><br /> از همان سنین کودکی و نوجوانی در نزد پدر علاوه بر فرا گرفتن ریتمهای ضرب زورخانه  و تنبک، آشنایی و نزدیکی خاصی  به دیوان شعرا و راه سیر و سلوک عارفان پیدا کرد و با اشعار مولانا و حافظ دمخور شد .<br /><br /> در 15 سالگی به طور حرفه ای آموزش دف را نزد استاد <b>آزاد بیگی</b> آغاز کرد و سالها به تمرین این ساز پرشور مشغول بود و حال به تدریس مشتاقان این ساز میپردازد .<br />وی در همان دوران به موسیقی خانقاهی مسلط شد و به همین واسطه ساز آیینی و اهورایی تنبور را نزد نوازنده چیره دست استاد <b>فراز کاویانی</b> آغاز کرد و بعد از چندین سال به محضر بزرگمرد تنبور <b>استاد طاهر یارویسی</b> شتافت و مقام نوازی را نزد ایشان آموخت و اصول صداسازی و شناخت ردیف آوازی را نزد استاد <b>مهدی سالاری نصب</b> آغاز کرد و به گفته خود وی تجارب زیادی را از ایشان فرا گرفت و همچنین در محضر استاد <b>سهیل امین زاده </b>به یادگیری شیوه تارنوازی و پرداخت .<br /><br />در جشنواره ها و کنسرتهای متعددی با نوازندگی تنبور و دف شرکت کرد و در سال 87 با همکاری دیگر نوازندگان همدل تنبور گروه تنبور نوازان حنان به سرپرستی وی تشکیل شد.
-در این سالها  چندین کنسرت و تکنوازی ها و گروه نوازی های زیادی  از وی و تنبور نوازان حنان در مشهد ،تهران ، کرمانشاه ، سمنان ،نیشابور ،خواف ،و ....به اجرا درآورد .<br /><br /><br />وی با کسب اجازه از اساتید خود و پیشکسوتان هم اکنون به تدریس مشتاقان تنبور و دف میپردازد و اولین آلبوم تنبور نوازان حنــان با آهنگسازی وی بزودی منتشر میشود .
+				<div class="contain">
+					<a href="./images/player/2.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:بنیامین سیران">
+						<img src="./images/player/2.jpg" alt="">
+					</a>
+				</div>
 
-</p>	
-			</div>
-		</div>	
+				<div class="contain">
+					<a href="./images/player/3.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:هومن غفاریان">
+						<img src="./images/player/3.jpg" alt="">
+					</a>
+					<h3>نوازنده تنبور:سید هومن غفاریان</h3>
+				</div>	
+
+				<div class="contain">
+					<a href="./images/player/4.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:سعید فدائی زاده">
+						<img src="./images/player/4.jpg" alt="">
+					</a>
+				</div>
+				
+				<div class="contain">
+					<a href="./images/player/5.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:محمد حسینی">
+						<img src="./images/player/5.jpg" alt="" >
+					</a>
+				</div>	
+
+
+			<div class="badboy"></div>
+		</div>
 	</section>
-	
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyphoto']").prettyPhoto({
+    	autoplay_slideshow: true,
+    });
+  });
+</script>
+
 <?php include('./inc/footer.php') ?>
