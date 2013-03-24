@@ -22,7 +22,7 @@
 					<ul>
 						<li><a href="home.php">خانه</a></li>
 						<li><a href="gallery.php">گالری</a></li>
-						<li><a href="player.php">نوازنده ها</a></li>
+						<li><a href="player.php">یاران</a></li>
 						<li><a href="contact.php">تماس با ما</a></li>
 					</ul>
 				</div>
