@@ -68,11 +68,11 @@
 				</li>
 			</ul>
 			<div class="badboy"></div>
-			<div class="links">
+			<!-- <div class="links">
 				<a href="./gallery.php">1</a>
 				<a href="./gallery-2.php">2</a>
 			</div>
-			<div class="badboy"></div>
+			<div class="badboy"></div> -->
 		</div>
 	</section>
 
