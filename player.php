@@ -6,12 +6,15 @@
 						<img src="./images/player/1.jpg" alt="">
 					</a>
 					<h3>سرپرست گروه و نوازنده تنبور:ابراهیم طهرانی پور</h3>
+					<p>asdasdasdasdasdasdasda</p>
 				</div>
 
-				<div class="contain">
+				<div class="contain two">
 					<a href="./images/player/2.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:بنیامین سیران">
 						<img src="./images/player/2.jpg" alt="">
 					</a>
+					<h3>نوازنده تنبور:بنیامین سیران</h3>
+					<p>asdasdasdasdasdasdasda</p>
 				</div>
 
 				<div class="contain">
@@ -19,18 +22,23 @@
 						<img src="./images/player/3.jpg" alt="">
 					</a>
 					<h3>نوازنده تنبور:سید هومن غفاریان</h3>
+					<p>asdasdasdasdasdasdasda</p>
 				</div>	
 
-				<div class="contain">
+				<div class="contain two">
 					<a href="./images/player/4.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:سعید فدائی زاده">
 						<img src="./images/player/4.jpg" alt="">
 					</a>
+					<h3>نوازنده تنبور:سعید فدائی زاده</h3>
+					<p>asdasdasdasdasdasdasda</p>
 				</div>
 				
 				<div class="contain">
 					<a href="./images/player/5.jpg" rel='prettyphoto[gallery1]' title="نوازنده تنبور:محمد حسینی">
 						<img src="./images/player/5.jpg" alt="" >
 					</a>
+					<h3>نوازنده تنبور:سید محمد حسینی</h3>
+					<p>asdasdasdasdasdasdasda</p>
 				</div>	
 
 

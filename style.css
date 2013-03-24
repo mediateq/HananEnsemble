@@ -466,9 +466,22 @@ section.middle div.gallery .contain a img:hover{
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
 }
-
 section.middle div.gallery .contain h3{
-	margin-top: 			30px;
+	margin-top: 			40px;
 	margin-right: 			230px;
-	color: 					#444;
-	}
+	color: 					#333;
+}
+section.middle div.gallery .contain p{
+	margin-right: 			250px;
+	color: 					#000;
+}
+section.middle div.gallery .two a img{
+	float: 					left;
+	margin-left: 			20px;
+}
+section.middle div.gallery .two h3{
+	margin-right: 			540px;
+}
+section.middle div.gallery .two p{
+	margin-right: 			250px;
+}
