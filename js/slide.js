@@ -23,9 +23,7 @@ window.onload = function(){
 	preslide = function(){
 		slider(currentslide-1);
 	}
-	
-	
-	
+		
 	stopSliding = function(){
 		if(!intervalName) return;
 		clearInterval(intervalName);
