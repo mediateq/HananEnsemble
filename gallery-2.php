@@ -71,6 +71,7 @@
 			<div class="links">
 				<a href="./gallery.php">1</a>
 				<a href="./gallery-2.php">2</a>
+				<a href="./gallery-3.php">3</a>
 			</div>
 			<div class="badboy"></div>
 		</div>
