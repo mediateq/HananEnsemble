@@ -363,7 +363,7 @@ section.Ajaxloader div.contact .leftcontact ul li img:hover{
 section.Ajaxloader div.gallery{
 	background-color:		white;
 	width: 					inherit;
-	min-height: 			1000px;
+	min-height: 			830px;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
@@ -422,6 +422,20 @@ section.Ajaxloader div.gallery ul li p{
 	margin-top: 11px;
 	color: #deae54;
 	font-size: 18px;
+}
+section.Ajaxloader div.gallery .links{
+	float: 					right;
+	margin-right: 			80px;
+	text-align: 			right;
+	direction: 				rtl;
+
+}
+section.Ajaxloader div.gallery .links a{
+	color: 					#000;
+	text-decoration: 		none;
+	padding: 				5px 16px;
+	background-color: 		#555;
+	border-radius: 			50px;
 }
 /* Players Page */
 section.middle div.gallery{
