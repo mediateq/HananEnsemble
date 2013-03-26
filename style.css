@@ -94,6 +94,7 @@ div.content-container{
 
 section.middle{
 	min-height: 550px;
+
 }
 
 /*  Slide & Footer  */
@@ -131,7 +132,7 @@ footer.foot .mom .slide .slidebar{
 }
 
 footer.foot .mom .slide .slidebar .train {
-	width     :				2000px;
+	width     :				2600px;
 	height    : 			100px;
 	margin    : 			0 auto;
 	margin-top: 			0px;
@@ -147,7 +148,7 @@ footer.foot .mom .slide .slidebar .train a {
 }
 
 footer.foot .mom .slide .slidebar .train a img{
-	width  : 				150px;
+	width  : 				125px;
 	height :				63px;
 	border-radius:			8px;
 	opacity: 				0.5;
