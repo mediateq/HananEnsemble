@@ -124,7 +124,7 @@ footer.foot .mom .slide{
 	margin-top: 			5px;
 }
 footer.foot .mom .slide .slidebar{
-	width: 					1000px;
+	width: 					980px;
 	min-height: 			130px;
 	margin: 				0 auto;
 	padding: 				1px;
@@ -132,7 +132,7 @@ footer.foot .mom .slide .slidebar{
 }
 
 footer.foot .mom .slide .slidebar .train {
-	width     :				2600px;
+	width     :				2000px;
 	height    : 			100px;
 	margin    : 			0 auto;
 	margin-top: 			0px;
@@ -148,7 +148,7 @@ footer.foot .mom .slide .slidebar .train a {
 }
 
 footer.foot .mom .slide .slidebar .train a img{
-	width  : 				125px;
+	width  : 				135px;
 	height :				63px;
 	border-radius:			8px;
 	opacity: 				0.5;

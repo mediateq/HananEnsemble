@@ -9,7 +9,7 @@ window.onload = function(){
 	var next = slide.getElementsByClassName('next').item(0); 
 	var currentslide = 0;
 	var currentBackSlide=0;
-	var len = Math.ceil((img.length)/6);
+	var len = Math.ceil((img.length)/9);
 	
 	slider = function(n){
 		if(n>len) n=0;
