@@ -39,7 +39,7 @@ div.content-container{
 }
 .content-container header.head .contain .menubar .logo img{
 	width: 					280px;
-	min-height: 			150px;
+	min-height: 			110px;
 	
 }
 .content-container header.head .contain .menubar .menu{
@@ -68,6 +68,7 @@ div.content-container{
 	color:					white;
 	display: 				inline-block;
 	font: 					14px/242px 'Playfair Display', 'Times New Roman', serif;
+	font-weight: 			bolder;
 	text-transform: 		uppercase;
 	width: 					100%;
 	height: 				100%;
@@ -130,32 +131,36 @@ footer.foot .mom .slide .slidebar{
 }
 
 footer.foot .mom .slide .slidebar .train {
-	width     :	2000px;
-	height    : 100px;
-	margin    : 0 auto;
-	margin-top: 0px;
-	position  : relative;
-	transition: 	all 500ms;
+	width     :				2000px;
+	height    : 			100px;
+	margin    : 			0 auto;
+	margin-top: 			0px;
+	position  : 			relative;
+	transition: 			all 500ms;
 	-webkit-transition: 	all 500ms;
   	-moz-transition: 		all 500ms;
   	-o-transition: 			all 500ms;
   	-ms-transition: 		all 500ms;
 }
 
-footer.foot .mom .slide .slidebar .train img{
-	width: 					150px;
-	height: 				63px;
-	border-radius: 			8px;
+footer.foot .mom .slide .slidebar .train a {
+}
+
+footer.foot .mom .slide .slidebar .train a img{
+	width  : 				150px;
+	height :				63px;
+	border-radius:			8px;
 	opacity: 				0.5;
-	margin-left: 			7px;
-	-webkit-transition: 	all 500ms;
-  	-moz-transition: 		all 500ms;
+	margin-right:			10px;
+	
+	-webkit-transition:		all 500ms;
+  	-moz-transition:		all 500ms;
   	-o-transition: 			all 500ms;
-  	-os-transition: 		all 500ms;
+  	-ms-transition: 		all 500ms;
 }
 footer.foot .mom .slide .slidebar .train img:first-child{
 	margin-left: 			0px;	
-
+	border-left: 			0 none;
 }
 footer.foot .mom .slide .slidebar .train img:hover{
 	opacity: 				1;
