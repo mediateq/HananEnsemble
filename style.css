@@ -225,7 +225,7 @@ footer.foot .text p {
 	color: 					#fff;
 	font-size: 				12px;
 }
-/* --- About Page --- */
+/* --- HOME Page --- */
 
 section.middle .aboutpg{
 	background-color:		white;
@@ -247,10 +247,17 @@ section.middle .aboutpg .text{
 	line-height: 			26px;
 	
 }
+section.middle .aboutpg .text h2{
+	margin-right: 			50px;
+}
 section.middle .aboutpg .text p{
 	font-size: 					17px; 
 	font-family: 				'Playfair Display', 'Times New Roman', serif;
 	font-style: 				normal;
+	margin-right: 				50px;
+}
+section.middle .aboutpg .text p span{
+	margin-right: 				710px;
 }
 /* --- Contact Page --- */
 
@@ -307,7 +314,7 @@ section.Ajaxloader div.contact .rightcontact input.but{
 	background-color: 		#555;
 	text-align: 			center;
 	width: 					110px;
-	height: 				35px;
+	height: 				30px;
 	color: 					#fff;
 	-webkit-transition: 	all 500ms;
   	-moz-transition: 		all 500ms;
@@ -472,7 +479,7 @@ section.middle div.gallery{
 }
 section.middle div.gallery .contain{
 	width: 					950px;
-	min-height: 			350px;
+	min-height: 			250px;
 	padding: 				1px;
 
 }
@@ -482,16 +489,16 @@ section.middle div.gallery .contain a{
 section.middle div.gallery .contain a img{
 	float: 					right;
 	margin-right: 			20px;
-	margin-top: 			20px;
+	margin-top: 			50px;
 	width: 					190px;
 	height: 				190px;
 	border-radius: 			11px;
 	opacity: 				0.9;
 	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-ms-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	transition: opacity 500ms;
+	-moz-transition: opacity 	500ms;
+	-ms-transition: opacity 	500ms;
+	-o-transition: opacity 		500ms;
+	transition: opacity 		500ms;
 }
 section.middle div.gallery .contain a img:hover{
 	opacity: 				1;
