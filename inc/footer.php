@@ -1,32 +1,26 @@
 		
-<footer class="foot">	
-	<div class="mom">
-		<div class="slide">
-			<div class="next" id="next"></div>
-			<div class="previous"></div>
-				<div class="slidebar">
-					<div class="train">
-						<?php
-						$path= './images/slidepic';
-						$large_img = './images/slidepic';
-						$files= scandir($path);
-						$len= 0;
-						foreach ($files as $file) {
-							$exp= explode('.',$file);
-							$type= end($exp);
-							if ($type == 'jpg'){
-								echo "<a href='$large_img/$file'><img src='$path/$file'></a>";
-								$len++;
-							}
-						}
-					?>
-					</a>
-					</div>
-				</div>
+<footer class="foot">
+	<div class="contain">
+		<div class="box1">
+			<h4><a href="">نوازندگان نامدار تـنـبور</a></h4>
+			<p><a href="">در این صفحه به معرفی چند تن از نوازنده های صاحب نام تـنـبور پرداخته ایم تا با بزرگان تـنـبور بیشتر آشنا شوید .</a></p>
+		</div>
+		<div class="box2">
+			<h4><a href="">آثار تـنـبور</a></h4>
+			<p><a href="">آثار منتشر شده و همچنین آثار جدید تنبور را در این بخش میتوانید مشهاده کنید .</a></p>
+		</div>
+		<div class="box3">
+			<h4><a href="">درباره تـنـبور</a></h4>
+			<p><a href="">در این بخش میتوان با ساز اهورایی و باستانی تنبور بیشتر آشنا شوید .</a></p>
+		</div>
+		<div class="box4">
+			<h4><a href="">کنسرت ها و اجرا ها</a></h4>
+			<p><a href="">در این صفحه به کنسرتها و اجرا های برگزار شده ی گروه حنان و برنامه های آتی آنان میپردازیم .</a></p>
 		</div>
 	</div>	
+	
 	<div class="text">
-				<p>{ HananEnsemble } © 2012&nbsp; |&nbsp; ALL RIGHTS RESERVED</p>
+				<p> HananEnsemble 4© 2012&nbsp; |&nbsp; ALL RIGHTS RESERVED</p>
 	</div>
 </footer>	
 </div>
